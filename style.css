@@ -1,0 +1,193 @@
+/* default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --box-shadow: rgba(0, 0, 0, 0.445) 2px 3px 4px;
+    --box-shadow1: rgba(0, 0, 0, 0.301) 2px 3px 4px;
+    --box-shadow2: rgba(0, 0, 0, 0.150) 2px 3px 4px;
+}
+
+/* style the start-quiz-button-container */
+.start-quiz-button-container {
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 50px 0;
+}
+
+/* style the start-quiz-button */
+#start-quiz-button {
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    scale: 1;
+}
+
+#start-quiz-button:hover {
+    scale: 1.1;
+}
+
+#start-quiz-button:focus {
+    scale: 1.03;
+}
+
+/* style the quiz-container */
+.quiz-container {
+    display: none;
+    border: 2px solid darkgray;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 40px auto 0 auto;
+    padding: 20px;
+    box-shadow:var(--box-shadow1);
+}
+
+/* style the quiz-header */
+.quiz-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+}
+
+/* style the quiz-header h1*/
+.quiz-header h1 {
+    font-size: 28px;
+}
+
+/* Style the question counter and score */
+.quiz-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+/* style the question-counter */
+#question-counter {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* style the score */
+#score {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Style the question and options */
+.questions {
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Style question text */
+#question-text {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+/* Style options */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Style individual option */
+.option {
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    box-shadow: var(--box-shadow2);
+}
+
+/* Style the next button */
+#next-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    scale: 1;
+}
+
+#next-button:hover {
+    scale: 1.1;
+}
+
+#next-button:focus {
+    scale: 1.03;
+}
+
+/* Style the scoreboard-container */
+.scoreboard-container {
+    display: none;
+    border: 2px solid #333;
+    margin: 40px auto;
+    padding: 20px 40px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow1);
+}
+
+/* Style the scoreboard-container h1 */
+.scoreboard-container h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Style the scoreboard-container p */
+.scoreboard-container p {
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Style the final-score */
+#final-score {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Style the restart button */
+#restart-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 5px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    scale: 1;
+}
+
+#restart-button:hover {
+    scale: 1.1;
+}
+
+#restart-button:focus {
+    scale: 1.03;
+}
