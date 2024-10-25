@@ -17,7 +17,7 @@ In this project user has to create a simple quiz application, where one can test
 
 ## Output
 
-![expected output](/Quiz_App_JavaScript/output/startButton.PNG)
-![expected output](/Quiz_App_JavaScript/output/quizContainer.PNG)
-![expected output](/Quiz_App_JavaScript/output/quizContaineOoptionsClicking.PNG)
-![expected output](/Quiz_App_JavaScript/output/scoreBoard.PNG)
+![expected output](/output/startButton.PNG)
+![expected output](/output/quizContainer.PNG)
+![expected output](/output/quizContaineOoptionsClicking.PNG)
+![expected output](/output/scoreBoard.PNG)
